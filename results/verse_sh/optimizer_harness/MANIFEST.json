@@ -1,0 +1,9 @@
+{
+ "format": "teacher_ws/v1",
+ "created": 1789707415.0816994,
+ "teacher": "qwen38-flash-next",
+ "student": "qwen38-27b",
+ "self_edit": true,
+ "execute": true,
+ "seed_wisdom": true
+}

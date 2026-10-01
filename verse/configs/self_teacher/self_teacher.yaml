@@ -1,0 +1,12 @@
+# Self-evolving optimizer with simple verification: the optimizer starts from an empty
+# optimizer harness, runs training tasks with run_episode, and after each round rewrites its
+# own harness (teacher_ws/) in a self-evolution episode.
+name: self_teacher
+evidence: {kind: pull_explore}
+edit_space: {kind: code_hooks}
+meta_teacher:
+  self_edit: true
+  episode_budget: 8          # run_episode calls per optimizer episode (as probes.budget)
+  episode_wall_s: 3600
+  meta_max_turns: 30
+  meta_bash_cap: 30

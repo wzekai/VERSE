@@ -1,0 +1,10 @@
+# Terminal-Bench variant of self_teacher/reflect_only.yaml — identical method, TB seed prompt.
+base_prompt: TB
+name: tb_reflect_only
+evidence: {kind: pull_explore}
+edit_space: {kind: code_hooks}
+meta_teacher:
+  self_edit: true
+  execute: false
+  meta_max_turns: 30
+  meta_bash_cap: 30

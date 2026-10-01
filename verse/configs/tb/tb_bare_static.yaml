@@ -1,0 +1,9 @@
+# Terminal-Bench variant of self_teacher/bare_static.yaml — identical method, TB seed prompt.
+base_prompt: TB
+name: tb_bare_static
+evidence: {kind: pull_explore}
+edit_space: {kind: code_hooks}
+meta_teacher:
+  self_edit: false
+  episode_budget: 8
+  episode_wall_s: 3600

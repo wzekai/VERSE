@@ -1,0 +1,5 @@
+# Meta-Harness (2603.28052). Evidence: pull_explore, read tools (list_dir, read_file, grep)
+# over the run directory, with which the optimizer explores the trajectories itself.
+name: meta_harness
+evidence: {kind: pull_explore}
+edit_space: {kind: code_hooks}

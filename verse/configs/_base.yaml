@@ -1,0 +1,32 @@
+# Shared settings. Every method yaml is deep-merged over this file and sets only its own
+# components: evidence, probes, attribute, meta_teacher.
+#
+# The launchers set the optimizer (intervener) and executor models with --set; the values here
+# are the served model names used in the paper (see scripts/serve_*.sh).
+intervener:
+  model: qwen38-flash-next
+  regions: us-west-2
+  # 60 turns leave room for verification calls; every method has the same cap
+  max_turns: 60
+executor:
+  model: qwen38-27b
+  regions: us-west-2
+  max_turns: 100
+# keep_all: every round's edit stays in the lineage and every round runs the full validation
+# sweep; the best round on validation is selected at the end.
+gate: {kind: keep_all}
+rounds: 6
+# flip_confirm: rerun validation tasks whose outcome flipped and discard flips that do not
+# reproduce. It applies to every method.
+sweep: {concurrency: 24, flip_confirm: true}
+# search: each round runs n_candidates optimizer episodes in parallel and screens them on
+# screen_tasks shared training tasks. With verification tools (probes) each episode gets a
+# different candidate guidance; otherwise all episodes use the same prompt, unless a
+# self-evolving optimizer has written its own guidance (search.md).
+search: {n_candidates: 3, screen_tasks: 12}
+data:
+  train_parquet: SET_ME          # set by the launcher
+  val_parquet: SET_ME
+  train_tasks: 110
+  val_tasks: 50
+  seed: 42

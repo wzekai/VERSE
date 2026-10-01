@@ -1,0 +1,15 @@
+# VERSE on the Meta-Harness evidence (pull_explore): ours/verified_mh.yaml plus optimizer
+# self-evolution. seed_wisdom: the optimizer harness starts with the verification strategy
+# and candidate guidance of verified_mh, which the optimizer may rewrite from round 1 on.
+name: verse_mh
+evidence: {kind: pull_explore}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+attribute: {max_fail: 6, max_success: 2, wall_s: 2400}
+edit_space: {kind: code_hooks}
+meta_teacher:
+  self_edit: true
+  seed_wisdom: true
+  episode_budget: 8          # unused here: with probes, run_episode draws from the
+  episode_wall_s: 3600       # verification budget (probes.budget)
+  meta_max_turns: 30
+  meta_bash_cap: 30

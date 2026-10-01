@@ -1,0 +1,17 @@
+{
+ "setting": "Self-Harness",
+ "host_optimizer": "Self-Harness",
+ "config": "baselines/self_harness",
+ "self_evolving_optimizer": false,
+ "executor": "Qwen3.8-27B",
+ "optimizer": "Qwen3.8-Flash-Next",
+ "rounds": 6,
+ "selected_round": 6,
+ "validation_at_selected_round": {
+  "n_tasks": 50,
+  "solved_in_round": 19,
+  "solved_in_final_reevaluation": 22,
+  "mean": 20.5
+ },
+ "harness_sha256": "c86c8e76fcfc0a66a1eeade92844f40dfd20dd6bc55d9aa8aa881f43ddb94c4e"
+}

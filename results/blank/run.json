@@ -1,0 +1,6 @@
+{
+ "setting": "Blank (initial harness h0)",
+ "evolution": "none (the initial harness every run starts from)",
+ "executor": "Qwen3.8-27B",
+ "harness_sha256": "626ab6c6cb5a98289d1365fc7d64a34a4b74e5fe632944c9cb7b751b377ed20a"
+}

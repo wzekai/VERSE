@@ -1,0 +1,7 @@
+# VERSE without optimizer self-evolution, on the AHE evidence (push_digest_layered).
+# Components as in verified_mh.yaml. Base configuration of the verified_ahe_* ablations.
+name: verified_ahe
+evidence: {kind: push_digest_layered, max_tasks: 12}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+attribute: {max_fail: 6, max_success: 2, wall_s: 2400}
+edit_space: {kind: code_hooks}

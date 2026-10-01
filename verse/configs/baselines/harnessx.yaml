@@ -1,0 +1,5 @@
+# HarnessX (2606.14249). Evidence: pull_digest, read tools over the run directory plus a
+# digest_trajectories tool that summarizes a batch of trajectories on request.
+name: harnessx
+evidence: {kind: pull_digest, max_tasks: 25}
+edit_space: {kind: code_hooks}

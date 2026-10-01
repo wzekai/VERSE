@@ -1,0 +1,8 @@
+# VERSE without optimizer self-evolution, on the Meta-Harness evidence (pull_explore).
+# probes: the verification, replay and perturbation tools. attribute: attribution with trace
+# minimization and the training audit. Candidate guidance comes with probes (see _base.yaml).
+name: verified_mh
+evidence: {kind: pull_explore}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+attribute: {max_fail: 6, max_success: 2, wall_s: 2400}
+edit_space: {kind: code_hooks}

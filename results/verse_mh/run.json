@@ -1,0 +1,19 @@
+{
+ "setting": "Meta-Harness + VERSE (w/ self-evolve)",
+ "host_optimizer": "Meta-Harness",
+ "config": "self_teacher/verse_mh",
+ "self_evolving_optimizer": true,
+ "executor": "Qwen3.8-27B",
+ "optimizer": "Qwen3.8-Flash-Next",
+ "rounds": 6,
+ "selected_round": 2,
+ "validation_at_selected_round": {
+  "n_tasks": 50,
+  "solved_in_round": 22,
+  "solved_in_final_reevaluation": 20,
+  "mean": 21.0
+ },
+ "harness_sha256": "f9c69b80f258a111e5729262866592c304862a2daff0291184f86d49eb25abf9",
+ "optimizer_harness": "written by the optimizer in its self-update after round 1",
+ "optimizer_harness_sha256": "6d4e51207ab8299e6e368ab00457fe0e6b18a5b317da8226a87154cf651b968f"
+}

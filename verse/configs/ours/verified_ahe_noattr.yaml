@@ -1,0 +1,6 @@
+# Ablation of verified_ahe: no attribution with trace minimization and no training audit
+# (no attribute section); the optimizer keeps the verification tools.
+name: verified_ahe_noattr
+evidence: {kind: push_digest_layered, max_tasks: 12}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+edit_space: {kind: code_hooks}

@@ -1,0 +1,9 @@
+# Ablation of verified_ahe: a fixed rule, not the optimizer, chooses the verification runs:
+# replay the first failures, ablate the final action of the next ones, then fix_probe the
+# submitted draft on its predicted fixes. The optimizer sees only the results.
+name: verified_ahe_fixedsched
+evidence: {kind: push_digest_layered, max_tasks: 12}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+probe_scheduler: {kind: fixed}
+attribute: {max_fail: 6, max_success: 2, wall_s: 2400}
+edit_space: {kind: code_hooks}

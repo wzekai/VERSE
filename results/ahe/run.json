@@ -1,0 +1,17 @@
+{
+ "setting": "AHE",
+ "host_optimizer": "AHE",
+ "config": "baselines/ahe",
+ "self_evolving_optimizer": false,
+ "executor": "Qwen3.8-27B",
+ "optimizer": "Qwen3.8-Flash-Next",
+ "rounds": 6,
+ "selected_round": 6,
+ "validation_at_selected_round": {
+  "n_tasks": 50,
+  "solved_in_round": 18,
+  "solved_in_final_reevaluation": 19,
+  "mean": 18.5
+ },
+ "harness_sha256": "ee56174ea9bf36b38ac8b94ef0f4a648a1526492abb820d8f4ac568763ff88d3"
+}

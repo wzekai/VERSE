@@ -1,0 +1,5 @@
+# AHE (2604.25850). Evidence: push_digest_layered, a layered digest of the failing
+# trajectories that the driver builds and puts into the optimizer's prompt.
+name: ahe
+evidence: {kind: push_digest_layered, max_tasks: 12}
+edit_space: {kind: code_hooks}

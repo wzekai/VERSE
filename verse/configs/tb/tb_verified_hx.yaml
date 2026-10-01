@@ -1,0 +1,8 @@
+# Terminal-Bench variant of ours/verified_hx.yaml: same method, TB seed prompt, and
+# a smaller attribution budget (TB rounds are 2-3x slower than SWE).
+base_prompt: TB
+name: tb_verified_hx
+evidence: {kind: pull_digest, max_tasks: 25}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+attribute: {max_fail: 4, max_success: 2, wall_s: 1800}
+edit_space: {kind: code_hooks}

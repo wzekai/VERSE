@@ -1,0 +1,12 @@
+# Ablation of self_teacher: self-evolution may write only notes.md and skills/*.md, not
+# prompt.md, search.md or teacher_code/.
+name: self_teacher_notesonly
+evidence: {kind: pull_explore}
+edit_space: {kind: code_hooks}
+meta_teacher:
+  self_edit: true
+  self_edit_channels: [notes]
+  episode_budget: 8
+  episode_wall_s: 3600
+  meta_max_turns: 30
+  meta_bash_cap: 30

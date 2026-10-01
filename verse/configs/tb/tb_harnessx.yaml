@@ -1,0 +1,5 @@
+# Terminal-Bench variant of baselines/harnessx.yaml — identical method, TB seed prompt.
+base_prompt: TB
+name: tb_harnessx
+evidence: {kind: pull_digest, max_tasks: 25}
+edit_space: {kind: code_hooks}

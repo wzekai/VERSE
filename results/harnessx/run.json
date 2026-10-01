@@ -1,0 +1,17 @@
+{
+ "setting": "HarnessX",
+ "host_optimizer": "HarnessX",
+ "config": "baselines/harnessx",
+ "self_evolving_optimizer": false,
+ "executor": "Qwen3.8-27B",
+ "optimizer": "Qwen3.8-Flash-Next",
+ "rounds": 6,
+ "selected_round": 0,
+ "validation_at_selected_round": {
+  "n_tasks": 50,
+  "solved_in_round": 20,
+  "solved_in_final_reevaluation": 19,
+  "mean": 19.5
+ },
+ "harness_sha256": "626ab6c6cb5a98289d1365fc7d64a34a4b74e5fe632944c9cb7b751b377ed20a"
+}

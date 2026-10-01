@@ -1,0 +1,7 @@
+# VERSE without optimizer self-evolution, on the HarnessX evidence (pull_digest).
+# Components as in verified_mh.yaml.
+name: verified_hx
+evidence: {kind: pull_digest, max_tasks: 25}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+attribute: {max_fail: 6, max_success: 2, wall_s: 2400}
+edit_space: {kind: code_hooks}

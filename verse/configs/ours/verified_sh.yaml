@@ -1,0 +1,7 @@
+# VERSE without optimizer self-evolution, on the Self-Harness evidence (push_clustered).
+# Components as in verified_mh.yaml.
+name: verified_sh
+evidence: {kind: push_clustered, max_tasks: 20}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+attribute: {max_fail: 6, max_success: 2, wall_s: 2400}
+edit_space: {kind: code_hooks}

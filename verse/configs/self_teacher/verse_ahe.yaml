@@ -1,0 +1,14 @@
+# VERSE on the AHE evidence (push_digest_layered): as verse_mh.yaml, with the evidence of
+# ours/verified_ahe.yaml.
+name: verse_ahe
+evidence: {kind: push_digest_layered, max_tasks: 12}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+attribute: {max_fail: 6, max_success: 2, wall_s: 2400}
+edit_space: {kind: code_hooks}
+meta_teacher:
+  self_edit: true
+  seed_wisdom: true
+  episode_budget: 8
+  episode_wall_s: 3600
+  meta_max_turns: 30
+  meta_bash_cap: 30

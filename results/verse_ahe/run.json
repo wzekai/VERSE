@@ -1,0 +1,19 @@
+{
+ "setting": "AHE + VERSE (w/ self-evolve)",
+ "host_optimizer": "AHE",
+ "config": "self_teacher/verse_ahe",
+ "self_evolving_optimizer": true,
+ "executor": "Qwen3.8-27B",
+ "optimizer": "Qwen3.8-Flash-Next",
+ "rounds": 6,
+ "selected_round": 5,
+ "validation_at_selected_round": {
+  "n_tasks": 50,
+  "solved_in_round": 21,
+  "solved_in_final_reevaluation": 19,
+  "mean": 20.0
+ },
+ "harness_sha256": "d90d6bdf45cc95318c78cdb3536382ac6f195ab0dc8be4e11b75ecc96c71ec6b",
+ "optimizer_harness": "written by the optimizer in its self-update after round 4",
+ "optimizer_harness_sha256": "8acf71e68b98f547b12db2878370ae7062351f7818d8f684c9331961f975d7e8"
+}

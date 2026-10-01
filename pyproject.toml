@@ -1,0 +1,20 @@
+[project]
+name = "verse"
+version = "0.1.0"
+description = "VERSE: verified self-evolving optimizers for LLM agent harnesses"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3",
+    "pandas",
+    "pyarrow",
+    "pyyaml",
+    "swebench",
+    "zstandard",
+]
+
+[tool.setuptools.packages.find]
+include = ["verse*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

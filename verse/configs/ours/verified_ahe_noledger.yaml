@@ -1,0 +1,7 @@
+# Ablation of verified_ahe: the training audit (failure-mode ledger) is left out of the
+# optimizer's report. The ledger file still updates, so attribution picks the same traces.
+name: verified_ahe_noledger
+evidence: {kind: push_digest_layered, max_tasks: 12}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+attribute: {max_fail: 6, max_success: 2, wall_s: 2400, ledger: false}
+edit_space: {kind: code_hooks}

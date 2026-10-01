@@ -1,0 +1,6 @@
+# Self-Harness (2606.09498). Evidence: push_clustered, clustered causal records of failures.
+# Unlike the original (a single typed hook, the executor model as optimizer), it uses the
+# shared code_hooks edit space and the shared optimizer model.
+name: self_harness
+evidence: {kind: push_clustered, max_tasks: 20}
+edit_space: {kind: code_hooks}

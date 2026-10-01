@@ -1,0 +1,15 @@
+# Terminal-Bench variant of self_teacher/verse_mh.yaml: same method, TB seed prompt,
+# and the smaller attribution budget of tb/tb_verified_mh.yaml.
+base_prompt: TB
+name: tb_verse_mh
+evidence: {kind: pull_explore}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+attribute: {max_fail: 4, max_success: 2, wall_s: 1800}
+edit_space: {kind: code_hooks}
+meta_teacher:
+  self_edit: true
+  seed_wisdom: true
+  episode_budget: 8
+  episode_wall_s: 3600
+  meta_max_turns: 30
+  meta_bash_cap: 30

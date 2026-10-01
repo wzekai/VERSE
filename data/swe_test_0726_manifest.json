@@ -1,0 +1,1115 @@
+{
+ "n": 111,
+ "tasks": [
+  {
+   "instance_id": "ArcadeData__arcadedb-4281",
+   "repo": "ArcadeData/arcadedb",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/arcadedata__arcadedb-4281:v0.1.0",
+   "docker_image": "sweb07/arcadedata__arcadedb-4281:v0.1.0",
+   "repo_dir": "/arcadedb",
+   "created_at": "2026-05-22T05:26:56Z",
+   "task_dir": "ArcadeData__arcadedb-4281"
+  },
+  {
+   "instance_id": "ArcadeData__arcadedb-4411",
+   "repo": "ArcadeData/arcadedb",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/arcadedata__arcadedb-4411:v0.1.0",
+   "docker_image": "sweb07/arcadedata__arcadedb-4411:v0.1.0",
+   "repo_dir": "/arcadedb",
+   "created_at": "2026-05-29T15:11:15Z",
+   "task_dir": "ArcadeData__arcadedb-4411"
+  },
+  {
+   "instance_id": "ArcadeData__arcadedb-4455",
+   "repo": "ArcadeData/arcadedb",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/arcadedata__arcadedb-4455:v0.1.0",
+   "docker_image": "sweb07/arcadedata__arcadedb-4455:v0.1.0",
+   "repo_dir": "/arcadedb",
+   "created_at": "2026-06-01T21:01:32Z",
+   "task_dir": "ArcadeData__arcadedb-4455"
+  },
+  {
+   "instance_id": "Gentleman-Programming__gentle-ai-595",
+   "repo": "Gentleman-Programming/gentle-ai",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/gentleman-programming__gentle-ai-595:v0.1.0",
+   "docker_image": "sweb07/gentleman-programming__gentle-ai-595:v0.1.0",
+   "repo_dir": "/gentle-ai",
+   "created_at": "2026-05-20T08:58:57Z",
+   "task_dir": "Gentleman-Programming__gentle-ai-595"
+  },
+  {
+   "instance_id": "HKUDS__nanobot-4048",
+   "repo": "HKUDS/nanobot",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/hkuds__nanobot-4048:v0.1.0",
+   "docker_image": "sweb07/hkuds__nanobot-4048:v0.1.0",
+   "repo_dir": "/nanobot",
+   "created_at": "2026-05-29T02:11:41Z",
+   "task_dir": "HKUDS__nanobot-4048"
+  },
+  {
+   "instance_id": "HKUDS__nanobot-4129",
+   "repo": "HKUDS/nanobot",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/hkuds__nanobot-4129:v0.1.0",
+   "docker_image": "sweb07/hkuds__nanobot-4129:v0.1.0",
+   "repo_dir": "/nanobot",
+   "created_at": "2026-06-01T01:55:29Z",
+   "task_dir": "HKUDS__nanobot-4129"
+  },
+  {
+   "instance_id": "HKUDS__nanobot-4274",
+   "repo": "HKUDS/nanobot",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/hkuds__nanobot-4274:v0.1.0",
+   "docker_image": "sweb07/hkuds__nanobot-4274:v0.1.0",
+   "repo_dir": "/nanobot",
+   "created_at": "2026-06-10T08:01:22Z",
+   "task_dir": "HKUDS__nanobot-4274"
+  },
+  {
+   "instance_id": "Martian-Engineering__lossless-claw-814",
+   "repo": "Martian-Engineering/lossless-claw",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/martian-engineering__lossless-claw-814:v0.1.0",
+   "docker_image": "sweb07/martian-engineering__lossless-claw-814:v0.1.0",
+   "repo_dir": "/lossless-claw",
+   "created_at": "2026-06-03 21:40:15",
+   "task_dir": "Martian-Engineering__lossless-claw-814"
+  },
+  {
+   "instance_id": "PerryTS__perry-3982",
+   "repo": "PerryTS/perry",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/perryts__perry-3982:v0.1.0",
+   "docker_image": "sweb07/perryts__perry-3982:v0.1.0",
+   "repo_dir": "/perry",
+   "created_at": "2026-06-01T17:10:06Z",
+   "task_dir": "PerryTS__perry-3982"
+  },
+  {
+   "instance_id": "Soju06__codex-lb-744",
+   "repo": "Soju06/codex-lb",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/soju06__codex-lb-744:v0.1.0",
+   "docker_image": "sweb07/soju06__codex-lb-744:v0.1.0",
+   "repo_dir": "/codex-lb",
+   "created_at": "2026-05-21T06:44:33Z",
+   "task_dir": "Soju06__codex-lb-744"
+  },
+  {
+   "instance_id": "agno-agi__agno-8148",
+   "repo": "agno-agi/agno",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/agno-agi__agno-8148:v0.1.0",
+   "docker_image": "sweb07/agno-agi__agno-8148:v0.1.0",
+   "repo_dir": "/agno",
+   "created_at": "2026-05-28T20:46:58Z",
+   "task_dir": "agno-agi__agno-8148"
+  },
+  {
+   "instance_id": "apache__dubbo-go-3357",
+   "repo": "apache/dubbo-go",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/apache__dubbo-go-3357:v0.1.0",
+   "docker_image": "sweb07/apache__dubbo-go-3357:v0.1.0",
+   "repo_dir": "/dubbo-go",
+   "created_at": "2026-05-30 12:03:27",
+   "task_dir": "apache__dubbo-go-3357"
+  },
+  {
+   "instance_id": "apache__hugegraph-3037",
+   "repo": "apache/hugegraph",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/apache__hugegraph-3037:v0.1.0",
+   "docker_image": "sweb07/apache__hugegraph-3037:v0.1.0",
+   "repo_dir": "/hugegraph",
+   "created_at": "2026-05-24T13:56:07Z",
+   "task_dir": "apache__hugegraph-3037"
+  },
+  {
+   "instance_id": "apache__pulsar-25793",
+   "repo": "apache/pulsar",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/apache__pulsar-25793:v0.1.0",
+   "docker_image": "sweb07/apache__pulsar-25793:v0.1.0",
+   "repo_dir": "/pulsar",
+   "created_at": "2026-05-16 02:47:12",
+   "task_dir": "apache__pulsar-25793"
+  },
+  {
+   "instance_id": "apache__pulsar-25865",
+   "repo": "apache/pulsar",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/apache__pulsar-25865:v0.1.0",
+   "docker_image": "sweb07/apache__pulsar-25865:v0.1.0",
+   "repo_dir": "/pulsar",
+   "created_at": "2026-05-24T18:46:32Z",
+   "task_dir": "apache__pulsar-25865"
+  },
+  {
+   "instance_id": "apache__pulsar-25953",
+   "repo": "apache/pulsar",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/apache__pulsar-25953:v0.1.0",
+   "docker_image": "sweb07/apache__pulsar-25953:v0.1.0",
+   "repo_dir": "/pulsar",
+   "created_at": "2026-06-06T16:18:02Z",
+   "task_dir": "apache__pulsar-25953"
+  },
+  {
+   "instance_id": "astral-sh__ruff-25414",
+   "repo": "astral-sh/ruff",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/astral-sh__ruff-25414:v0.1.0",
+   "docker_image": "sweb07/astral-sh__ruff-25414:v0.1.0",
+   "repo_dir": "/ruff",
+   "created_at": "2026-05-27T11:51:32Z",
+   "task_dir": "astral-sh__ruff-25414"
+  },
+  {
+   "instance_id": "astral-sh__ruff-25567",
+   "repo": "astral-sh/ruff",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/astral-sh__ruff-25567:v0.1.0",
+   "docker_image": "sweb07/astral-sh__ruff-25567:v0.1.0",
+   "repo_dir": "/ruff",
+   "created_at": "2026-06-03T00:03:50Z",
+   "task_dir": "astral-sh__ruff-25567"
+  },
+  {
+   "instance_id": "better-auth__better-auth-10070",
+   "repo": "better-auth/better-auth",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/better-auth__better-auth-10070:v0.1.0",
+   "docker_image": "sweb07/better-auth__better-auth-10070:v0.1.0",
+   "repo_dir": "/better-auth",
+   "created_at": "2026-06-15T06:06:03Z",
+   "task_dir": "better-auth__better-auth-10070"
+  },
+  {
+   "instance_id": "better-auth__better-auth-9756",
+   "repo": "better-auth/better-auth",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/better-auth__better-auth-9756:v0.1.0",
+   "docker_image": "sweb07/better-auth__better-auth-9756:v0.1.0",
+   "repo_dir": "/better-auth",
+   "created_at": "2026-05-26T13:50:32Z",
+   "task_dir": "better-auth__better-auth-9756"
+  },
+  {
+   "instance_id": "cloudflare__vinext-1371",
+   "repo": "cloudflare/vinext",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/cloudflare__vinext-1371:v0.1.0",
+   "docker_image": "sweb07/cloudflare__vinext-1371:v0.1.0",
+   "repo_dir": "/vinext",
+   "created_at": "2026-05-20T18:33:16Z",
+   "task_dir": "cloudflare__vinext-1371"
+  },
+  {
+   "instance_id": "cloudflare__vinext-1574",
+   "repo": "cloudflare/vinext",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/cloudflare__vinext-1574:v0.1.0",
+   "docker_image": "sweb07/cloudflare__vinext-1574:v0.1.0",
+   "repo_dir": "/vinext",
+   "created_at": "2026-05-22T15:00:33Z",
+   "task_dir": "cloudflare__vinext-1574"
+  },
+  {
+   "instance_id": "cloudflare__vinext-1837",
+   "repo": "cloudflare/vinext",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/cloudflare__vinext-1837:v0.1.0",
+   "docker_image": "sweb07/cloudflare__vinext-1837:v0.1.0",
+   "repo_dir": "/vinext",
+   "created_at": "2026-06-08 13:24:14",
+   "task_dir": "cloudflare__vinext-1837"
+  },
+  {
+   "instance_id": "cloudnative-pg__cloudnative-pg-10747",
+   "repo": "cloudnative-pg/cloudnative-pg",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/cloudnative-pg__cloudnative-pg-10747:v0.1.0",
+   "docker_image": "sweb07/cloudnative-pg__cloudnative-pg-10747:v0.1.0",
+   "repo_dir": "/cloudnative-pg",
+   "created_at": "2026-05-20 15:49:15",
+   "task_dir": "cloudnative-pg__cloudnative-pg-10747"
+  },
+  {
+   "instance_id": "danny-avila__LibreChat-13166",
+   "repo": "danny-avila/LibreChat",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/danny-avila__librechat-13166:v0.1.0",
+   "docker_image": "sweb07/danny-avila__librechat-13166:v0.1.0",
+   "repo_dir": "/LibreChat",
+   "created_at": "2026-05-17 22:06:08",
+   "task_dir": "danny-avila__LibreChat-13166"
+  },
+  {
+   "instance_id": "docker__docker-agent-2992",
+   "repo": "docker/docker-agent",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/docker__docker-agent-2992:v0.1.0",
+   "docker_image": "sweb07/docker__docker-agent-2992:v0.1.0",
+   "repo_dir": "/docker-agent",
+   "created_at": "2026-06-03T14:06:03Z",
+   "task_dir": "docker__docker-agent-2992"
+  },
+  {
+   "instance_id": "facebook__lexical-8676",
+   "repo": "facebook/lexical",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/facebook__lexical-8676:v0.1.0",
+   "docker_image": "sweb07/facebook__lexical-8676:v0.1.0",
+   "repo_dir": "/lexical",
+   "created_at": "2026-06-11T07:54:10Z",
+   "task_dir": "facebook__lexical-8676"
+  },
+  {
+   "instance_id": "fallow-rs__fallow-762",
+   "repo": "fallow-rs/fallow",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/fallow-rs__fallow-762:v0.1.0",
+   "docker_image": "sweb07/fallow-rs__fallow-762:v0.1.0",
+   "repo_dir": "/fallow",
+   "created_at": "2026-05-28 20:02:26",
+   "task_dir": "fallow-rs__fallow-762"
+  },
+  {
+   "instance_id": "fallow-rs__fallow-821",
+   "repo": "fallow-rs/fallow",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/fallow-rs__fallow-821:v0.1.0",
+   "docker_image": "sweb07/fallow-rs__fallow-821:v0.1.0",
+   "repo_dir": "/fallow",
+   "created_at": "2026-05-31T17:46:50Z",
+   "task_dir": "fallow-rs__fallow-821"
+  },
+  {
+   "instance_id": "fallow-rs__fallow-824",
+   "repo": "fallow-rs/fallow",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/fallow-rs__fallow-824:v0.1.0",
+   "docker_image": "sweb07/fallow-rs__fallow-824:v0.1.0",
+   "repo_dir": "/fallow",
+   "created_at": "2026-05-31T18:08:27Z",
+   "task_dir": "fallow-rs__fallow-824"
+  },
+  {
+   "instance_id": "fallow-rs__fallow-913",
+   "repo": "fallow-rs/fallow",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/fallow-rs__fallow-913:v0.1.0",
+   "docker_image": "sweb07/fallow-rs__fallow-913:v0.1.0",
+   "repo_dir": "/fallow",
+   "created_at": "2026-06-03T08:18:52Z",
+   "task_dir": "fallow-rs__fallow-913"
+  },
+  {
+   "instance_id": "fathah__hermes-desktop-249",
+   "repo": "fathah/hermes-desktop",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/fathah__hermes-desktop-249:v0.1.0",
+   "docker_image": "sweb07/fathah__hermes-desktop-249:v0.1.0",
+   "repo_dir": "/hermes-desktop",
+   "created_at": "2026-05-18T10:28:02Z",
+   "task_dir": "fathah__hermes-desktop-249"
+  },
+  {
+   "instance_id": "fathah__hermes-desktop-268",
+   "repo": "fathah/hermes-desktop",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/fathah__hermes-desktop-268:v0.1.0",
+   "docker_image": "sweb07/fathah__hermes-desktop-268:v0.1.0",
+   "repo_dir": "/hermes-desktop",
+   "created_at": "2026-05-19T17:22:47Z",
+   "task_dir": "fathah__hermes-desktop-268"
+  },
+  {
+   "instance_id": "floci-io__floci-1021",
+   "repo": "floci-io/floci",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/floci-io__floci-1021:v0.1.0",
+   "docker_image": "sweb07/floci-io__floci-1021:v0.1.0",
+   "repo_dir": "/floci",
+   "created_at": "2026-05-24T18:05:06Z",
+   "task_dir": "floci-io__floci-1021"
+  },
+  {
+   "instance_id": "floci-io__floci-1032",
+   "repo": "floci-io/floci",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/floci-io__floci-1032:v0.1.0",
+   "docker_image": "sweb07/floci-io__floci-1032:v0.1.0",
+   "repo_dir": "/floci",
+   "created_at": "2026-05-25 14:15:30",
+   "task_dir": "floci-io__floci-1032"
+  },
+  {
+   "instance_id": "floci-io__floci-1142",
+   "repo": "floci-io/floci",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/floci-io__floci-1142:v0.1.0",
+   "docker_image": "sweb07/floci-io__floci-1142:v0.1.0",
+   "repo_dir": "/floci",
+   "created_at": "2026-06-02T18:39:05Z",
+   "task_dir": "floci-io__floci-1142"
+  },
+  {
+   "instance_id": "floci-io__floci-1209",
+   "repo": "floci-io/floci",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/floci-io__floci-1209:v0.1.0",
+   "docker_image": "sweb07/floci-io__floci-1209:v0.1.0",
+   "repo_dir": "/floci",
+   "created_at": "2026-06-06 07:56:05",
+   "task_dir": "floci-io__floci-1209"
+  },
+  {
+   "instance_id": "floci-io__floci-1235",
+   "repo": "floci-io/floci",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/floci-io__floci-1235:v0.1.0",
+   "docker_image": "sweb07/floci-io__floci-1235:v0.1.0",
+   "repo_dir": "/floci",
+   "created_at": "2026-06-08 07:47:17",
+   "task_dir": "floci-io__floci-1235"
+  },
+  {
+   "instance_id": "floci-io__floci-1325",
+   "repo": "floci-io/floci",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/floci-io__floci-1325:v0.1.0",
+   "docker_image": "sweb07/floci-io__floci-1325:v0.1.0",
+   "repo_dir": "/floci",
+   "created_at": "2026-06-13T08:17:41Z",
+   "task_dir": "floci-io__floci-1325"
+  },
+  {
+   "instance_id": "gleam-lang__gleam-5797",
+   "repo": "gleam-lang/gleam",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/gleam-lang__gleam-5797:v0.1.0",
+   "docker_image": "sweb07/gleam-lang__gleam-5797:v0.1.0",
+   "repo_dir": "/gleam",
+   "created_at": "2026-06-03T01:47:52Z",
+   "task_dir": "gleam-lang__gleam-5797"
+  },
+  {
+   "instance_id": "gleam-lang__gleam-5798",
+   "repo": "gleam-lang/gleam",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/gleam-lang__gleam-5798:v0.1.0",
+   "docker_image": "sweb07/gleam-lang__gleam-5798:v0.1.0",
+   "repo_dir": "/gleam",
+   "created_at": "2026-06-03T02:29:31Z",
+   "task_dir": "gleam-lang__gleam-5798"
+  },
+  {
+   "instance_id": "gotd__td-1759",
+   "repo": "gotd/td",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/gotd__td-1759:v0.1.0",
+   "docker_image": "sweb07/gotd__td-1759:v0.1.0",
+   "repo_dir": "/td",
+   "created_at": "2026-06-11 12:54:18",
+   "task_dir": "gotd__td-1759"
+  },
+  {
+   "instance_id": "harbor-framework__harbor-1764",
+   "repo": "harbor-framework/harbor",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/harbor-framework__harbor-1764:v0.1.0",
+   "docker_image": "sweb07/harbor-framework__harbor-1764:v0.1.0",
+   "repo_dir": "/harbor",
+   "created_at": "2026-05-30T17:43:10Z",
+   "task_dir": "harbor-framework__harbor-1764"
+  },
+  {
+   "instance_id": "helidon-io__helidon-11979",
+   "repo": "helidon-io/helidon",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/helidon-io__helidon-11979:v0.1.0",
+   "docker_image": "sweb07/helidon-io__helidon-11979:v0.1.0",
+   "repo_dir": "/helidon",
+   "created_at": "2026-05-18T22:45:21Z",
+   "task_dir": "helidon-io__helidon-11979"
+  },
+  {
+   "instance_id": "intellectronica__ruler-556",
+   "repo": "intellectronica/ruler",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/intellectronica__ruler-556:v0.1.0",
+   "docker_image": "sweb07/intellectronica__ruler-556:v0.1.0",
+   "repo_dir": "/ruler",
+   "created_at": "2026-06-05T00:18:03Z",
+   "task_dir": "intellectronica__ruler-556"
+  },
+  {
+   "instance_id": "ivov__lisette-491",
+   "repo": "ivov/lisette",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/ivov__lisette-491:v0.1.0",
+   "docker_image": "sweb07/ivov__lisette-491:v0.1.0",
+   "repo_dir": "/lisette",
+   "created_at": "2026-05-25T21:39:20Z",
+   "task_dir": "ivov__lisette-491"
+  },
+  {
+   "instance_id": "ivov__lisette-627",
+   "repo": "ivov/lisette",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/ivov__lisette-627:v0.1.0",
+   "docker_image": "sweb07/ivov__lisette-627:v0.1.0",
+   "repo_dir": "/lisette",
+   "created_at": "2026-06-06T17:26:18Z",
+   "task_dir": "ivov__lisette-627"
+  },
+  {
+   "instance_id": "ivov__lisette-657",
+   "repo": "ivov/lisette",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/ivov__lisette-657:v0.1.0",
+   "docker_image": "sweb07/ivov__lisette-657:v0.1.0",
+   "repo_dir": "/lisette",
+   "created_at": "2026-06-08T16:15:57Z",
+   "task_dir": "ivov__lisette-657"
+  },
+  {
+   "instance_id": "kenn-io__agentsview-602",
+   "repo": "kenn-io/agentsview",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/kenn-io__agentsview-602:v0.1.0",
+   "docker_image": "sweb07/kenn-io__agentsview-602:v0.1.0",
+   "repo_dir": "/agentsview",
+   "created_at": "2026-06-07T19:08:57Z",
+   "task_dir": "kenn-io__agentsview-602"
+  },
+  {
+   "instance_id": "kestra-io__kestra-16067",
+   "repo": "kestra-io/kestra",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/kestra-io__kestra-16067:v0.1.0",
+   "docker_image": "sweb07/kestra-io__kestra-16067:v0.1.0",
+   "repo_dir": "/kestra",
+   "created_at": "2026-05-17T17:23:59Z",
+   "task_dir": "kestra-io__kestra-16067"
+  },
+  {
+   "instance_id": "kestra-io__kestra-16119",
+   "repo": "kestra-io/kestra",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/kestra-io__kestra-16119:v0.1.0",
+   "docker_image": "sweb07/kestra-io__kestra-16119:v0.1.0",
+   "repo_dir": "/kestra",
+   "created_at": "2026-05-19T20:37:19Z",
+   "task_dir": "kestra-io__kestra-16119"
+  },
+  {
+   "instance_id": "kestra-io__kestra-16450",
+   "repo": "kestra-io/kestra",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/kestra-io__kestra-16450:v0.1.0",
+   "docker_image": "sweb07/kestra-io__kestra-16450:v0.1.0",
+   "repo_dir": "/kestra",
+   "created_at": "2026-06-01T16:10:58Z",
+   "task_dir": "kestra-io__kestra-16450"
+  },
+  {
+   "instance_id": "kubernetes-sigs__kueue-11559",
+   "repo": "kubernetes-sigs/kueue",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/kubernetes-sigs__kueue-11559:v0.1.0",
+   "docker_image": "sweb07/kubernetes-sigs__kueue-11559:v0.1.0",
+   "repo_dir": "/kueue",
+   "created_at": "2026-05-23 03:28:16",
+   "task_dir": "kubernetes-sigs__kueue-11559"
+  },
+  {
+   "instance_id": "kubernetes-sigs__kueue-11619",
+   "repo": "kubernetes-sigs/kueue",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/kubernetes-sigs__kueue-11619:v0.1.0",
+   "docker_image": "sweb07/kubernetes-sigs__kueue-11619:v0.1.0",
+   "repo_dir": "/kueue",
+   "created_at": "2026-05-25T20:45:05Z",
+   "task_dir": "kubernetes-sigs__kueue-11619"
+  },
+  {
+   "instance_id": "langchain-ai__deepagents-3866",
+   "repo": "langchain-ai/deepagents",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/langchain-ai__deepagents-3866:v0.1.0",
+   "docker_image": "sweb07/langchain-ai__deepagents-3866:v0.1.0",
+   "repo_dir": "/deepagents",
+   "created_at": "2026-06-11T04:39:42Z",
+   "task_dir": "langchain-ai__deepagents-3866"
+  },
+  {
+   "instance_id": "langchain4j__langchain4j-5315",
+   "repo": "langchain4j/langchain4j",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/langchain4j__langchain4j-5315:v0.1.0",
+   "docker_image": "sweb07/langchain4j__langchain4j-5315:v0.1.0",
+   "repo_dir": "/langchain4j",
+   "created_at": "2026-05-27T16:39:57Z",
+   "task_dir": "langchain4j__langchain4j-5315"
+  },
+  {
+   "instance_id": "langchain4j__langchain4j-5328",
+   "repo": "langchain4j/langchain4j",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/langchain4j__langchain4j-5328:v0.1.0",
+   "docker_image": "sweb07/langchain4j__langchain4j-5328:v0.1.0",
+   "repo_dir": "/langchain4j",
+   "created_at": "2026-05-29T14:14:40Z",
+   "task_dir": "langchain4j__langchain4j-5328"
+  },
+  {
+   "instance_id": "langchain4j__langchain4j-5367",
+   "repo": "langchain4j/langchain4j",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/langchain4j__langchain4j-5367:v0.1.0",
+   "docker_image": "sweb07/langchain4j__langchain4j-5367:v0.1.0",
+   "repo_dir": "/langchain4j",
+   "created_at": "2026-06-04T22:14:05Z",
+   "task_dir": "langchain4j__langchain4j-5367"
+  },
+  {
+   "instance_id": "livekit__agents-5944",
+   "repo": "livekit/agents",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/livekit__agents-5944:v0.1.0",
+   "docker_image": "sweb07/livekit__agents-5944:v0.1.0",
+   "repo_dir": "/agents",
+   "created_at": "2026-06-02T21:59:17Z",
+   "task_dir": "livekit__agents-5944"
+  },
+  {
+   "instance_id": "ludo-technologies__pyscn-500",
+   "repo": "ludo-technologies/pyscn",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/ludo-technologies__pyscn-500:v0.1.0",
+   "docker_image": "sweb07/ludo-technologies__pyscn-500:v0.1.0",
+   "repo_dir": "/pyscn",
+   "created_at": "2026-05-31T00:57:07Z",
+   "task_dir": "ludo-technologies__pyscn-500"
+  },
+  {
+   "instance_id": "ludo-technologies__pyscn-548",
+   "repo": "ludo-technologies/pyscn",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/ludo-technologies__pyscn-548:v0.1.0",
+   "docker_image": "sweb07/ludo-technologies__pyscn-548:v0.1.0",
+   "repo_dir": "/pyscn",
+   "created_at": "2026-06-12T14:38:11Z",
+   "task_dir": "ludo-technologies__pyscn-548"
+  },
+  {
+   "instance_id": "marimo-team__marimo-9626",
+   "repo": "marimo-team/marimo",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/marimo-team__marimo-9626:v0.1.0",
+   "docker_image": "sweb07/marimo-team__marimo-9626:v0.1.0",
+   "repo_dir": "/marimo",
+   "created_at": "2026-05-20T14:38:02Z",
+   "task_dir": "marimo-team__marimo-9626"
+  },
+  {
+   "instance_id": "marimo-team__marimo-9754",
+   "repo": "marimo-team/marimo",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/marimo-team__marimo-9754:v0.1.0",
+   "docker_image": "sweb07/marimo-team__marimo-9754:v0.1.0",
+   "repo_dir": "/marimo",
+   "created_at": "2026-06-02T07:00:53Z",
+   "task_dir": "marimo-team__marimo-9754"
+  },
+  {
+   "instance_id": "marimo-team__marimo-9766",
+   "repo": "marimo-team/marimo",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/marimo-team__marimo-9766:v0.1.0",
+   "docker_image": "sweb07/marimo-team__marimo-9766:v0.1.0",
+   "repo_dir": "/marimo",
+   "created_at": "2026-06-02 21:30:41",
+   "task_dir": "marimo-team__marimo-9766"
+  },
+  {
+   "instance_id": "matrixorigin__matrixone-24632",
+   "repo": "matrixorigin/matrixone",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/matrixorigin__matrixone-24632:v0.1.0",
+   "docker_image": "sweb07/matrixorigin__matrixone-24632:v0.1.0",
+   "repo_dir": "/matrixone",
+   "created_at": "2026-05-27 08:26:00",
+   "task_dir": "matrixorigin__matrixone-24632"
+  },
+  {
+   "instance_id": "microsoft__apm-1553",
+   "repo": "microsoft/apm",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/microsoft__apm-1553:v0.1.0",
+   "docker_image": "sweb07/microsoft__apm-1553:v0.1.0",
+   "repo_dir": "/apm",
+   "created_at": "2026-05-29T21:09:20Z",
+   "task_dir": "microsoft__apm-1553"
+  },
+  {
+   "instance_id": "microsoft__typescript-go-4062",
+   "repo": "microsoft/typescript-go",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/microsoft__typescript-go-4062:v0.1.0",
+   "docker_image": "sweb07/microsoft__typescript-go-4062:v0.1.0",
+   "repo_dir": "/typescript-go",
+   "created_at": "2026-05-27T17:41:06Z",
+   "task_dir": "microsoft__typescript-go-4062"
+  },
+  {
+   "instance_id": "microsoft__typescript-go-4194",
+   "repo": "microsoft/typescript-go",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/microsoft__typescript-go-4194:v0.1.0",
+   "docker_image": "sweb07/microsoft__typescript-go-4194:v0.1.0",
+   "repo_dir": "/typescript-go",
+   "created_at": "2026-06-04T00:22:16Z",
+   "task_dir": "microsoft__typescript-go-4194"
+  },
+  {
+   "instance_id": "microsoft__waza-247",
+   "repo": "microsoft/waza",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/microsoft__waza-247:v0.1.0",
+   "docker_image": "sweb07/microsoft__waza-247:v0.1.0",
+   "repo_dir": "/waza",
+   "created_at": "2026-05-20T16:29:23Z",
+   "task_dir": "microsoft__waza-247"
+  },
+  {
+   "instance_id": "mikro-orm__mikro-orm-7799",
+   "repo": "mikro-orm/mikro-orm",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/mikro-orm__mikro-orm-7799:v0.1.0",
+   "docker_image": "sweb07/mikro-orm__mikro-orm-7799:v0.1.0",
+   "repo_dir": "/mikro-orm",
+   "created_at": "2026-05-29T08:15:30Z",
+   "task_dir": "mikro-orm__mikro-orm-7799"
+  },
+  {
+   "instance_id": "mozilla-ai__any-llm-1121",
+   "repo": "mozilla-ai/any-llm",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/mozilla-ai__any-llm-1121:v0.1.0",
+   "docker_image": "sweb07/mozilla-ai__any-llm-1121:v0.1.0",
+   "repo_dir": "/any-llm",
+   "created_at": "2026-06-11T15:01:30Z",
+   "task_dir": "mozilla-ai__any-llm-1121"
+  },
+  {
+   "instance_id": "mui__base-ui-4849",
+   "repo": "mui/base-ui",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/mui__base-ui-4849:v0.1.0",
+   "docker_image": "sweb07/mui__base-ui-4849:v0.1.0",
+   "repo_dir": "/base-ui",
+   "created_at": "2026-05-19T05:47:16Z",
+   "task_dir": "mui__base-ui-4849"
+  },
+  {
+   "instance_id": "mui__base-ui-4903",
+   "repo": "mui/base-ui",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/mui__base-ui-4903:v0.1.0",
+   "docker_image": "sweb07/mui__base-ui-4903:v0.1.0",
+   "repo_dir": "/base-ui",
+   "created_at": "2026-05-25T06:04:22Z",
+   "task_dir": "mui__base-ui-4903"
+  },
+  {
+   "instance_id": "mvanhorn__cli-printing-press-1920",
+   "repo": "mvanhorn/cli-printing-press",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/mvanhorn__cli-printing-press-1920:v0.1.0",
+   "docker_image": "sweb07/mvanhorn__cli-printing-press-1920:v0.1.0",
+   "repo_dir": "/cli-printing-press",
+   "created_at": "2026-05-23T09:32:13Z",
+   "task_dir": "mvanhorn__cli-printing-press-1920"
+  },
+  {
+   "instance_id": "mvanhorn__cli-printing-press-2002",
+   "repo": "mvanhorn/cli-printing-press",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/mvanhorn__cli-printing-press-2002:v0.1.0",
+   "docker_image": "sweb07/mvanhorn__cli-printing-press-2002:v0.1.0",
+   "repo_dir": "/cli-printing-press",
+   "created_at": "2026-05-23T22:27:38Z",
+   "task_dir": "mvanhorn__cli-printing-press-2002"
+  },
+  {
+   "instance_id": "mvanhorn__cli-printing-press-2086",
+   "repo": "mvanhorn/cli-printing-press",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/mvanhorn__cli-printing-press-2086:v0.1.0",
+   "docker_image": "sweb07/mvanhorn__cli-printing-press-2086:v0.1.0",
+   "repo_dir": "/cli-printing-press",
+   "created_at": "2026-05-24T19:54:29Z",
+   "task_dir": "mvanhorn__cli-printing-press-2086"
+  },
+  {
+   "instance_id": "nearai__ironclaw-3694",
+   "repo": "nearai/ironclaw",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/nearai__ironclaw-3694:v0.1.0",
+   "docker_image": "sweb07/nearai__ironclaw-3694:v0.1.0",
+   "repo_dir": "/ironclaw",
+   "created_at": "2026-05-15T19:07:17Z",
+   "task_dir": "nearai__ironclaw-3694"
+  },
+  {
+   "instance_id": "nearai__ironclaw-3735",
+   "repo": "nearai/ironclaw",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/nearai__ironclaw-3735:v0.1.0",
+   "docker_image": "sweb07/nearai__ironclaw-3735:v0.1.0",
+   "repo_dir": "/ironclaw",
+   "created_at": "2026-05-17T13:47:18Z",
+   "task_dir": "nearai__ironclaw-3735"
+  },
+  {
+   "instance_id": "nesquena__hermes-webui-3069",
+   "repo": "nesquena/hermes-webui",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/nesquena__hermes-webui-3069:v0.1.0",
+   "docker_image": "sweb07/nesquena__hermes-webui-3069:v0.1.0",
+   "repo_dir": "/hermes-webui",
+   "created_at": "2026-05-28 12:04:58",
+   "task_dir": "nesquena__hermes-webui-3069"
+  },
+  {
+   "instance_id": "open-jarvis__OpenJarvis-465",
+   "repo": "open-jarvis/OpenJarvis",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/open-jarvis__openjarvis-465:v0.1.0",
+   "docker_image": "sweb07/open-jarvis__openjarvis-465:v0.1.0",
+   "repo_dir": "/OpenJarvis",
+   "created_at": "2026-06-01T16:29:44Z",
+   "task_dir": "open-jarvis__OpenJarvis-465"
+  },
+  {
+   "instance_id": "openrewrite__rewrite-7784",
+   "repo": "openrewrite/rewrite",
+   "language": "java",
+   "hub_image": "docker.io/swerebenchv2/openrewrite__rewrite-7784:v0.1.0",
+   "docker_image": "sweb07/openrewrite__rewrite-7784:v0.1.0",
+   "repo_dir": "/rewrite",
+   "created_at": "2026-05-26T11:49:10Z",
+   "task_dir": "openrewrite__rewrite-7784"
+  },
+  {
+   "instance_id": "oxc-project__oxc-22623",
+   "repo": "oxc-project/oxc",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/oxc-project__oxc-22623:v0.1.0",
+   "docker_image": "sweb07/oxc-project__oxc-22623:v0.1.0",
+   "repo_dir": "/oxc",
+   "created_at": "2026-05-20T10:26:54Z",
+   "task_dir": "oxc-project__oxc-22623"
+  },
+  {
+   "instance_id": "promptfoo__promptfoo-9313",
+   "repo": "promptfoo/promptfoo",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/promptfoo__promptfoo-9313:v0.1.0",
+   "docker_image": "sweb07/promptfoo__promptfoo-9313:v0.1.0",
+   "repo_dir": "/promptfoo",
+   "created_at": "2026-05-20T19:27:28Z",
+   "task_dir": "promptfoo__promptfoo-9313"
+  },
+  {
+   "instance_id": "pydantic__pydantic-ai-5580",
+   "repo": "pydantic/pydantic-ai",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/pydantic__pydantic-ai-5580:v0.1.0",
+   "docker_image": "sweb07/pydantic__pydantic-ai-5580:v0.1.0",
+   "repo_dir": "/pydantic-ai",
+   "created_at": "2026-05-22T13:07:11Z",
+   "task_dir": "pydantic__pydantic-ai-5580"
+  },
+  {
+   "instance_id": "pydantic__pydantic-ai-5842",
+   "repo": "pydantic/pydantic-ai",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/pydantic__pydantic-ai-5842:v0.1.0",
+   "docker_image": "sweb07/pydantic__pydantic-ai-5842:v0.1.0",
+   "repo_dir": "/pydantic-ai",
+   "created_at": "2026-06-09T09:50:25Z",
+   "task_dir": "pydantic__pydantic-ai-5842"
+  },
+  {
+   "instance_id": "raullenchai__Rapid-MLX-426",
+   "repo": "raullenchai/Rapid-MLX",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/raullenchai__rapid-mlx-426:v0.1.0",
+   "docker_image": "sweb07/raullenchai__rapid-mlx-426:v0.1.0",
+   "repo_dir": "/Rapid-MLX",
+   "created_at": "2026-05-20 22:32:32",
+   "task_dir": "raullenchai__Rapid-MLX-426"
+  },
+  {
+   "instance_id": "react-hook-form__react-hook-form-13464",
+   "repo": "react-hook-form/react-hook-form",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/react-hook-form__react-hook-form-13464:v0.1.0",
+   "docker_image": "sweb07/react-hook-form__react-hook-form-13464:v0.1.0",
+   "repo_dir": "/react-hook-form",
+   "created_at": "2026-05-22T00:56:14Z",
+   "task_dir": "react-hook-form__react-hook-form-13464"
+  },
+  {
+   "instance_id": "rest-sh__restish-337",
+   "repo": "rest-sh/restish",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/rest-sh__restish-337:v0.1.0",
+   "docker_image": "sweb07/rest-sh__restish-337:v0.1.0",
+   "repo_dir": "/restish",
+   "created_at": "2026-05-28T06:00:32Z",
+   "task_dir": "rest-sh__restish-337"
+  },
+  {
+   "instance_id": "rust-lang__rust-analyzer-22397",
+   "repo": "rust-lang/rust-analyzer",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/rust-lang__rust-analyzer-22397:v0.1.0",
+   "docker_image": "sweb07/rust-lang__rust-analyzer-22397:v0.1.0",
+   "repo_dir": "/rust-analyzer",
+   "created_at": "2026-05-18T01:01:20Z",
+   "task_dir": "rust-lang__rust-analyzer-22397"
+  },
+  {
+   "instance_id": "sipeed__picoclaw-2928",
+   "repo": "sipeed/picoclaw",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/sipeed__picoclaw-2928:v0.1.0",
+   "docker_image": "sweb07/sipeed__picoclaw-2928:v0.1.0",
+   "repo_dir": "/picoclaw",
+   "created_at": "2026-05-22T16:06:56Z",
+   "task_dir": "sipeed__picoclaw-2928"
+  },
+  {
+   "instance_id": "stablyai__orca-1934",
+   "repo": "stablyai/orca",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/stablyai__orca-1934:v0.1.0",
+   "docker_image": "sweb07/stablyai__orca-1934:v0.1.0",
+   "repo_dir": "/orca",
+   "created_at": "2026-05-15T17:41:16Z",
+   "task_dir": "stablyai__orca-1934"
+  },
+  {
+   "instance_id": "stablyai__orca-4331",
+   "repo": "stablyai/orca",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/stablyai__orca-4331:v0.1.0",
+   "docker_image": "sweb07/stablyai__orca-4331:v0.1.0",
+   "repo_dir": "/orca",
+   "created_at": "2026-05-31T23:44:29Z",
+   "task_dir": "stablyai__orca-4331"
+  },
+  {
+   "instance_id": "stablyai__orca-5176",
+   "repo": "stablyai/orca",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/stablyai__orca-5176:v0.1.0",
+   "docker_image": "sweb07/stablyai__orca-5176:v0.1.0",
+   "repo_dir": "/orca",
+   "created_at": "2026-06-11T07:36:51Z",
+   "task_dir": "stablyai__orca-5176"
+  },
+  {
+   "instance_id": "tailscale__tailscale-19847",
+   "repo": "tailscale/tailscale",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/tailscale__tailscale-19847:v0.1.0",
+   "docker_image": "sweb07/tailscale__tailscale-19847:v0.1.0",
+   "repo_dir": "/tailscale",
+   "created_at": "2026-05-22T22:32:44Z",
+   "task_dir": "tailscale__tailscale-19847"
+  },
+  {
+   "instance_id": "tashfeenahmed__freellmapi-289",
+   "repo": "tashfeenahmed/freellmapi",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/tashfeenahmed__freellmapi-289:v0.1.0",
+   "docker_image": "sweb07/tashfeenahmed__freellmapi-289:v0.1.0",
+   "repo_dir": "/freellmapi",
+   "created_at": "2026-06-11T09:41:27Z",
+   "task_dir": "tashfeenahmed__freellmapi-289"
+  },
+  {
+   "instance_id": "teng-lin__notebooklm-py-826",
+   "repo": "teng-lin/notebooklm-py",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/teng-lin__notebooklm-py-826:v0.1.0",
+   "docker_image": "sweb07/teng-lin__notebooklm-py-826:v0.1.0",
+   "repo_dir": "/notebooklm-py",
+   "created_at": "2026-05-18T16:37:24Z",
+   "task_dir": "teng-lin__notebooklm-py-826"
+  },
+  {
+   "instance_id": "tursodatabase__turso-7117",
+   "repo": "tursodatabase/turso",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/tursodatabase__turso-7117:v0.1.0",
+   "docker_image": "sweb07/tursodatabase__turso-7117:v0.1.0",
+   "repo_dir": "/turso",
+   "created_at": "2026-05-16T13:24:38Z",
+   "task_dir": "tursodatabase__turso-7117"
+  },
+  {
+   "instance_id": "ubugeeei-prod__vize-1265",
+   "repo": "ubugeeei-prod/vize",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/ubugeeei-prod__vize-1265:v0.1.0",
+   "docker_image": "sweb07/ubugeeei-prod__vize-1265:v0.1.0",
+   "repo_dir": "/vize",
+   "created_at": "2026-06-09T10:36:16Z",
+   "task_dir": "ubugeeei-prod__vize-1265"
+  },
+  {
+   "instance_id": "ubugeeei-prod__vize-1281",
+   "repo": "ubugeeei-prod/vize",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/ubugeeei-prod__vize-1281:v0.1.0",
+   "docker_image": "sweb07/ubugeeei-prod__vize-1281:v0.1.0",
+   "repo_dir": "/vize",
+   "created_at": "2026-06-09 11:46:13",
+   "task_dir": "ubugeeei-prod__vize-1281"
+  },
+  {
+   "instance_id": "ubugeeei-prod__vize-1508",
+   "repo": "ubugeeei-prod/vize",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/ubugeeei-prod__vize-1508:v0.1.0",
+   "docker_image": "sweb07/ubugeeei-prod__vize-1508:v0.1.0",
+   "repo_dir": "/vize",
+   "created_at": "2026-06-12 02:31:25",
+   "task_dir": "ubugeeei-prod__vize-1508"
+  },
+  {
+   "instance_id": "ubugeeei-prod__vize-769",
+   "repo": "ubugeeei-prod/vize",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/ubugeeei-prod__vize-769:v0.1.0",
+   "docker_image": "sweb07/ubugeeei-prod__vize-769:v0.1.0",
+   "repo_dir": "/vize",
+   "created_at": "2026-05-30T12:49:52Z",
+   "task_dir": "ubugeeei-prod__vize-769"
+  },
+  {
+   "instance_id": "ubugeeei-prod__vize-774",
+   "repo": "ubugeeei-prod/vize",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/ubugeeei-prod__vize-774:v0.1.0",
+   "docker_image": "sweb07/ubugeeei-prod__vize-774:v0.1.0",
+   "repo_dir": "/vize",
+   "created_at": "2026-05-30T15:51:11Z",
+   "task_dir": "ubugeeei-prod__vize-774"
+  },
+  {
+   "instance_id": "ueberdosis__tiptap-7887",
+   "repo": "ueberdosis/tiptap",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/ueberdosis__tiptap-7887:v0.1.0",
+   "docker_image": "sweb07/ueberdosis__tiptap-7887:v0.1.0",
+   "repo_dir": "/tiptap",
+   "created_at": "2026-05-29T12:30:00Z",
+   "task_dir": "ueberdosis__tiptap-7887"
+  },
+  {
+   "instance_id": "ueberdosis__tiptap-7896",
+   "repo": "ueberdosis/tiptap",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/ueberdosis__tiptap-7896:v0.1.0",
+   "docker_image": "sweb07/ueberdosis__tiptap-7896:v0.1.0",
+   "repo_dir": "/tiptap",
+   "created_at": "2026-05-30T00:45:54Z",
+   "task_dir": "ueberdosis__tiptap-7896"
+  },
+  {
+   "instance_id": "verl-project__verl-6506",
+   "repo": "verl-project/verl",
+   "language": "python",
+   "hub_image": "docker.io/swerebenchv2/verl-project__verl-6506:v0.1.0",
+   "docker_image": "sweb07/verl-project__verl-6506:v0.1.0",
+   "repo_dir": "/verl",
+   "created_at": "2026-05-27T13:11:32Z",
+   "task_dir": "verl-project__verl-6506"
+  },
+  {
+   "instance_id": "vuejs__core-14877",
+   "repo": "vuejs/core",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/vuejs__core-14877:v0.1.0",
+   "docker_image": "sweb07/vuejs__core-14877:v0.1.0",
+   "repo_dir": "/core",
+   "created_at": "2026-05-23T01:45:49Z",
+   "task_dir": "vuejs__core-14877"
+  },
+  {
+   "instance_id": "vuejs__core-14897",
+   "repo": "vuejs/core",
+   "language": "typescript",
+   "hub_image": "docker.io/swerebenchv2/vuejs__core-14897:v0.1.0",
+   "docker_image": "sweb07/vuejs__core-14897:v0.1.0",
+   "repo_dir": "/core",
+   "created_at": "2026-05-31T17:48:57Z",
+   "task_dir": "vuejs__core-14897"
+  },
+  {
+   "instance_id": "withcoral__coral-1143",
+   "repo": "withcoral/coral",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/withcoral__coral-1143:v0.1.0",
+   "docker_image": "sweb07/withcoral__coral-1143:v0.1.0",
+   "repo_dir": "/coral",
+   "created_at": "2026-06-03T06:41:02Z",
+   "task_dir": "withcoral__coral-1143"
+  },
+  {
+   "instance_id": "withcoral__coral-1179",
+   "repo": "withcoral/coral",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/withcoral__coral-1179:v0.1.0",
+   "docker_image": "sweb07/withcoral__coral-1179:v0.1.0",
+   "repo_dir": "/coral",
+   "created_at": "2026-06-04T08:58:28Z",
+   "task_dir": "withcoral__coral-1179"
+  },
+  {
+   "instance_id": "withcoral__coral-1186",
+   "repo": "withcoral/coral",
+   "language": "rust",
+   "hub_image": "docker.io/swerebenchv2/withcoral__coral-1186:v0.1.0",
+   "docker_image": "sweb07/withcoral__coral-1186:v0.1.0",
+   "repo_dir": "/coral",
+   "created_at": "2026-06-04T10:47:57Z",
+   "task_dir": "withcoral__coral-1186"
+  },
+  {
+   "instance_id": "woodpecker-ci__woodpecker-6623",
+   "repo": "woodpecker-ci/woodpecker",
+   "language": "go",
+   "hub_image": "docker.io/swerebenchv2/woodpecker-ci__woodpecker-6623:v0.1.0",
+   "docker_image": "sweb07/woodpecker-ci__woodpecker-6623:v0.1.0",
+   "repo_dir": "/woodpecker",
+   "created_at": "2026-05-22T09:25:23Z",
+   "task_dir": "woodpecker-ci__woodpecker-6623"
+  }
+ ]
+}

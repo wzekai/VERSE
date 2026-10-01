@@ -1,0 +1,10 @@
+# Self-evolving optimizer without verification: after each round the optimizer rewrites its
+# own harness (teacher_ws/), but it has no run_episode and cannot execute anything.
+name: reflect_only
+evidence: {kind: pull_explore}
+edit_space: {kind: code_hooks}
+meta_teacher:
+  self_edit: true
+  execute: false             # no run_episode
+  meta_max_turns: 30
+  meta_bash_cap: 30

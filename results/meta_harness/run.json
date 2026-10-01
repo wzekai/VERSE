@@ -1,0 +1,17 @@
+{
+ "setting": "Meta-Harness",
+ "host_optimizer": "Meta-Harness",
+ "config": "baselines/meta_harness",
+ "self_evolving_optimizer": false,
+ "executor": "Qwen3.8-27B",
+ "optimizer": "Qwen3.8-Flash-Next",
+ "rounds": 6,
+ "selected_round": 4,
+ "validation_at_selected_round": {
+  "n_tasks": 50,
+  "solved_in_round": 20,
+  "solved_in_final_reevaluation": 19,
+  "mean": 19.5
+ },
+ "harness_sha256": "a8b666d4ebe2dc9617b1693aecfebbadaf30191fb9f0601f087ef6c7874418af"
+}

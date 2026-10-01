@@ -1,0 +1,8 @@
+# Ablation of verified_ahe: the optimizer gets no verification tools (probe_tools: false);
+# attribution with trace minimization and the training audit still run every round.
+name: verified_ahe_sysonly
+evidence: {kind: push_digest_layered, max_tasks: 12}
+probes: {kind: t2t_probes, budget: 8, budget_s: 3600}
+attribute: {max_fail: 6, max_success: 2, wall_s: 2400}
+probe_tools: false
+edit_space: {kind: code_hooks}

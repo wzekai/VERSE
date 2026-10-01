@@ -1,0 +1,11 @@
+/build
+__pycache__/
+*.pyc
+.pytest_cache/
+out/
+*.tgz
+.venv/
+.DS_Store
+# built task files (see data/README.md)
+data/*.parquet
+data/swe_rebench_07_2026/

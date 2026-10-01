@@ -1,0 +1,9 @@
+# Simple verification only: the optimizer can run training tasks (run_episode, budget 8)
+# but does not evolve its own harness; every round starts from an empty optimizer harness.
+name: bare_static
+evidence: {kind: pull_explore}
+edit_space: {kind: code_hooks}
+meta_teacher:
+  self_edit: false
+  episode_budget: 8
+  episode_wall_s: 3600

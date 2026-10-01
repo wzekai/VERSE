@@ -1,0 +1,13 @@
+# Terminal-Bench variant of self_teacher/self_teacher.yaml — identical method, TB seed prompt.
+# The run_episode settings match SWE: the budget counts runs, and the wall clock is reset
+# before the self-evolution episode.
+base_prompt: TB
+name: tb_self_teacher
+evidence: {kind: pull_explore}
+edit_space: {kind: code_hooks}
+meta_teacher:
+  self_edit: true
+  episode_budget: 8
+  episode_wall_s: 3600
+  meta_max_turns: 30
+  meta_bash_cap: 30

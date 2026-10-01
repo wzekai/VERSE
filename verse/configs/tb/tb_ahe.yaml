@@ -1,0 +1,5 @@
+# Terminal-Bench variant of baselines/ahe.yaml — identical method, TB seed prompt.
+base_prompt: TB
+name: tb_ahe
+evidence: {kind: push_digest_layered, max_tasks: 12}
+edit_space: {kind: code_hooks}
