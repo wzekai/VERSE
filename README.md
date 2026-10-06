@@ -1,6 +1,6 @@
-# VERSE: Verified Self-Evolving Optimizer for Agent Harnesses
+# VERSE: Verified Self-Evolving Optimizer
 
-Code for the paper **VERSE: Verified Self-Evolving Optimizer for Agent Harnesses**.
+Code for the paper [**VERSE: Verified Self-Evolving Optimizer for Agent Harnesses**](https://arxiv.org/abs/2610.02616).
 
 ## Install
 
@@ -74,3 +74,14 @@ tests/      unit tests
 ## License
 
 This code is released under the [MIT License](LICENSE).
+
+## Citation
+
+```bibtex
+@article{wang2026verse,
+  title={VERSE: Verified Self-Evolving Optimizer for Agent Harnesses},
+  author={Wang, Zekai and Ge, Yingqiang and Wang, Zekun and Wang, Hai and Xu, Yuhui and Frandsen, Joshua and Fu, Shancong and Wilson, Ashia C and Reddy, Chandan K},
+  journal={arXiv preprint arXiv:2610.02616},
+  year={2026}
+}
+```
